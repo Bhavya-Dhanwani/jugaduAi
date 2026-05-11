@@ -1,0 +1,21 @@
+{
+  "name": "ai",
+  "version": "1.0.0",
+  "description": "THiS is something by which you can use ai in you projects unlimited no restrictions use it like helllll.",
+  "license": "ISC",
+  "author": "Bhavya",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "fs": "^0.0.1-security",
+    "puppeteer": "^24.43.0",
+    "puppeteer-core": "^24.43.0",
+    "readline": "^1.3.0"
+  }
+}
